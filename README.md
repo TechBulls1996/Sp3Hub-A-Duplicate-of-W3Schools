@@ -10,6 +10,6 @@ A Duplicate Website of W3schools.com, I just made it for practice and improve my
 
 Today, If Look back this it was little easy for me But that times it was really hard to achive that kind of design for me.
 
-Thanks and Regards
+Thanks and Regards.
 Surya Pratap
 soroutlove1996@gmail.com
