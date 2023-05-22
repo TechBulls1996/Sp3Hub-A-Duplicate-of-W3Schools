@@ -1,0 +1,66 @@
+  /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+       padding-top:0px;
+      background-color: #f1f1f1;
+	 background:url(Images/pexels-photo.jpeg);
+      height: auto;
+    }
+	.sidenav ul{padding-left:14px;}
+	.sidenav ul li{display:block; height:30px; width:auto;}
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+		width:100%;
+      }
+      .content {height:100px; } 
+    }
+	
+	
+	.center{height:auto;}
+	
+	.marginn{margin-top:15px; margin-bottom:10px;}
+	.question-box{ border-left:4px solid #D20000; background:;}
+	
+	.but{height:35px; width:120px; border:0px; background:#D20000; color:white; position:relative; margin:5px;  }
+	.but span{font-size:17px;}
+	.but:hover{box-shadow:5px 5px 25px grey;}
+	
+	.family{ font-family:"Courier New", Courier, monospace;}
+	/*  start next page......["    "]    */
+	.leftnav{background:black; opacity:0.7; margin-top:20px;}
+	.leftnav ul li{height:auto; width:100%; padding-left:4px; line-height:30px; display:block;}
+	.leftnav ul li:hover {background:white; border-left:4px solid #C00;  }
+	.leftnav ul a:hover{color:#C00; font-size:14px; }
+	.leftnav ul a:focus{ color:#C00;}
+	.leftnav ul a:active{ color:#C00;}
+	.active{background:white; border-left:4px solid #C00; color:#C00;}
+	.active a{ color:#C00;}
+	.active:focus a{ color:#C00;}
+	
+	.bgimage{ background:url(Images/pexels-photo.jpeg);
+	         background-size:cover; }
+			 
+	mark{ marging:5px;} 
+	
+	/*--     this is body css for text of whole javascript    */
+	
+	   
